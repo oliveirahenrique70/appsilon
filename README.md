@@ -11,15 +11,15 @@ This repository contain the Arctoris R pipelines used for the analysis of chemic
 
 ## Features
 
-The R pipelines contains the following projects:
+All R pipelines are in the ```src``` folder of the repository, the pipelines are the following:
 
-* ```fast_XC50_analysis.R```
-The pipeline is used on the BiochemQC and MPro experiments. The code is  
+* ```fast_XC50_analysis.R``` : This pipeline perform the data anlysis for the *BiochemQC* and *MPro* experiments. The code uses as input data an Excel and a Extensible Markup Language files obtained using two different equipments BMG and D300   
 
-* longitudinal_biochemqc 
-The pipeline is used on to create a logitudinal analysis of BiochemQC experiments devoloped during time. 
+* ```longitudinal_biochemqc.R``` : The pipeline is used on to create a logitudinal analysis of BiochemQC experiments devoloped during time. 
 
-Beyond that, there are also Python tests with the objectove of 
+* ```pCRC.R``` : 
+
+Beyond that, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are on the code called ```test_biochemqc.py```
 
 ## Tecnology
 

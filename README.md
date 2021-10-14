@@ -13,7 +13,7 @@ This repository contain the Arctoris R pipelines used for the analysis of chemic
 
 All R pipelines are in the ```src``` folder of the repository, the pipelines are the following:
 
-* ```fast_XC50_analysis.R```
+### ```fast_XC50_analysis.R```
 
 This pipeline perform the data anlysis for the *BiochemQC* and *MPro* experiments. The code uses as input data an Excel and a Extensible Markup Language files obtained using two different equipments BMG and D300   
 

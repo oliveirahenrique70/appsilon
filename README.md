@@ -13,7 +13,7 @@ This repository contain the Arctoris R pipelines used for the analysis of chemic
 
 The R pipelines contains the following projects:
 
-* fast_XC50_analysis
+* ```fast_XC50_analysis.R```
 The pipeline is used on the BiochemQC and MPro experiments. The code is  
 
 * longitudinal_biochemqc 

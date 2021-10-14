@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This repository contain the Arctoris R pipelines used for the analysis of chemical experiments data. 
+This repository project contain the Arctoris R pipelines used for the analysis of chemical experiments data. 
 
 ## Features
 
@@ -15,7 +15,9 @@ All R pipelines are in the ```src``` folder of the repository, the repository pi
 
 *  ### ```fast_XC50_analysis.R```
 
-This pipeline perform the data anlysis for the *BiochemQC* and *MPro* experiments. The code uses as input data an Excel and a Extensible Markup Language files obtained using two different equipments BMG and D300   
+The pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, it´s important to highligth that these experiments can be developed as a single plate or multiplate. 
+
+The code uses as input data an Excel and XML files obtained using two different equipments BMG and D300.   
 
 * #### ```longitudinal_biochemqc.R``` 
 
@@ -27,9 +29,28 @@ Beyond that, the repository also contains tests, created in Python, with the obj
 
 ## Tecnology
 
+The following tools were used to develop the project:
+
 * R
 * Python
 * Docker
+
+## Contact
+
+[Arctoris webpage](https://www.arctoris.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - **Bold**
 - _italics_

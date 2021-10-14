@@ -1,9 +1,32 @@
-# Marine Shiny App
+# Arctoris R Pipelines
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Introduction](#introduction)
+* [Features](#features)
+* [Tecnology](#tecnology)
+
+## Introduction
+
+This repository contain the Arctoris R pipelines used for the analysis of chemical experiments data. 
+
+## Features
+
+The R pipelines contains the following projects:
+
+### fast_XC50_analysis
+The pipeline is used on the BiochemQC and MPro experiments. The code is  
+
+### longitudinal_biochemqc 
+The pipeline is used on to create a logitudinal analysis of BiochemQC experiments devoloped during time. 
+
+Beyond that, there are also Python tests with the objectove of 
+
+## Tecnology
+
+* R
+* Python
+* Docker
+
 
 ## General info
 This project is simple Lorem ipsum dolor generator.

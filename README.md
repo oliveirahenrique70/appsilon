@@ -4,6 +4,7 @@
 * [Introduction](#introduction)
 * [Features](#features)
 * [Tecnology](#tecnology)
+* [Contact](#contact)
 
 ## Introduction
 
@@ -37,7 +38,8 @@ The following tools were used to develop the project:
 
 ## Contact
 
-[Arctoris webpage](https://www.arctoris.com/)
+To get more information bout the project described acess our website,
+[Arctoris](https://www.arctoris.com/)
 
 
 

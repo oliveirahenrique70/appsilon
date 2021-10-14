@@ -27,6 +27,7 @@ Beyond that, there are also Python tests with the objectove of
 * Python
 * Docker
 
+![Image of Yaktocat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arctoris.com%2F&psig=AOvVaw0o6hoGAi2ppCveGz0yQVls&ust=1634327768742000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOiVgcTXyvMCFQAAAAAdAAAAABAD)
 
 ## General info
 This project is simple Lorem ipsum dolor generator.

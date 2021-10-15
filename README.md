@@ -6,6 +6,7 @@
   * [fast_XC50_analysis](#fast_XC50_analysis)
   * [longitudinal_biochemqc](#longitudinal_biochemqc)
   * [pCRC](#pCRC)
+  * [test_biochemqc](#test_biochemqc)
 * [Tecnology](#tecnology)
 * [Contact](#contact)
 
@@ -39,12 +40,9 @@ The pipeline perform the data anlysis for the **pCRC** experiments. This pipelin
 
 The input data for this pipeline is obtained with the same equipments of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
 
---
-
-Beyond the R pipelines described, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are the following
-
 * ### ```test_biochemqc```
 
+Beyond the R pipelines described, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are 
 
 
 ## Tecnology

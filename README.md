@@ -18,7 +18,7 @@ This repository project contains the Arctoris R pipelines used for the analysis 
 
 All project R pipelines are in the ```src``` folder of the repository. The project has the following ```R``` pipelines:
 
-*  ### ```fast_XC50_analysis``` <a name="fast_XC50_analysis"></a>
+*  ### fast_XC50_analysis <a name="fast_XC50_analysis"></a>
 
 The ```R``` pipeline performs the data analysis for the **BiochemQC** and **MPro** experiments. The objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50), which is the most widely used and informative measure of drug efficacy. The IC50 is obtained by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
 
@@ -28,7 +28,7 @@ Following the data manipulation, it is applied a predictive model using as input
 
 * ### ```longitudinal_biochemqc``` <a name="longitudinal_biochemqc"></a>
 
-The R pipeline is used to create a longitudinal analysis of **BiochemQC** experiments developed over time. As input, this pipeline uses the output data from all BiochemQC experiments to develop plots that illustrate how all experiments data behaviour over time.
+The ```R``` pipeline is used to create a longitudinal analysis of **BiochemQC** experiments developed over time. As input, this pipeline uses the output data from all BiochemQC experiments to develop plots that illustrate how all experiments data behaviour over time.
 
 This pipeline data analysis involves the compounds used in the BiochemQc experiment. Therefore, this pipeline data analysis produces output plots for each experiment compound and also plots with an overall examination containing all experiments compounds. Furthermore, the pipeline also calculates confidence intervals that represent the range of values associated with different confidence levels.
 
@@ -36,7 +36,7 @@ As output, the *longitudinal_biochemqc* pipeline generates static plots (PDF) an
 
 * ### ```pCRC``` <a name="pCRC"></a>
 
-The R pipeline performs the data analysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences regarding the compounds format on the plate and the number of different concentrations tested for each compound. Beyond that, for now, this pipeline uses only the single plate format.
+The ```R``` pipeline performs the data analysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences regarding the compounds format on the plate and the number of different concentrations tested for each compound. Beyond that, for now, this pipeline uses only the single plate format.
 
 The input data for this pipeline is obtained with the same types of equipment of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
 
@@ -46,7 +46,7 @@ The output of the data analysis is the predicted IC50. Beyond that, the pipeline
 
 * ### ```test_biochemqc``` <a name="test_biochemqc"></a>
 
-Beyond the R pipelines described, the repository also contains tests created in ```Python```, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
+Beyond the ```R``` pipelines described, the repository also contains tests created in ```Python```, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
 
 ## Tecnology
 

@@ -20,31 +20,31 @@ All project R pipelines are in the ```src``` folder of the repository. The proje
 
 *  ### ```fast_XC50_analysis``` <a name="fast_XC50_analysis"></a>
 
-The R pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, the main objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50) which is the most widely used and informative measure of a drug's efficacy. The IC50 is obtain by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
+The R pipeline performs the data analysis for the **BiochemQC** and **MPro** experiments. The objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50), which is the most widely used and informative measure of drug efficacy. The IC50 is obtained by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
 
-It´s important to highligth that these experiments can be developed using two types of plate format single or multiplate. It is use as input the data obtained by two different equipments, the BMG and D300. After imported the data is organized according to compounds and controls. The controls are used for to fit the robust inhibition and normalize it´s values. 
+It´s important to highlight that these experiments can be reproduced using two types of plate format, single or multiplate. It is used as input the data obtained by two different types of equipment, the BMG and D300. After being imported, the data is organized according to compounds and controls. The controls are used to fit the robust inhibition and normalize its values. 
 
-Following the data manipulation it is applyed a predictve model using the compounds concentration and robust inhibition with some initial estimates (max and min asymptote and hill slope), the output of this predictive model is the predicted IC50. Beyond that, the pipeline also produces as output plots containing the 11 points curve for each compound illustrating the concentration vs robust inhibition. 
+Following the data manipulation, it is applied a predictive model using as input the compound concentrations and robust inhibition with some initial estimates (max and min asymptote and hill slope), the output of this predictive model is the predicted IC50 value of each compound. Beyond that, the pipeline also produces output plots containing the 11 points curve for each compound illustrating the concentration vs robust inhibition. 
 
 * ### ```longitudinal_biochemqc``` <a name="longitudinal_biochemqc"></a>
 
- The R pipeline is used on to create a logitudinal analysis of **BiochemQC** experiments devoloped during time. As input this pipeline uses the output data from all BiochemQC  experiments to create plots that illustrates how the data behaviour over time.
+The R pipeline is used to create a longitudinal analysis of **BiochemQC** experiments developed over time. As input, this pipeline uses the output data from all BiochemQC experiments to develop plots that illustrate how all experiments data behaviour over time.
 
- The R pipeline data analysis envolves the compounds used in the BiochemQc experiment, therefore this pipeline produces as output plots for each compounds and also plots with an overall analysis of all compounds. Furthermore, the pipeline also calcuates confidence intervall that represents range of values associated with different confidence levels.
+This pipeline data analysis involves the compounds used in the BiochemQc experiment. Therefore, this pipeline data analysis produces output plots for each experiment compound and also plots with an overall examination containing all experiments compounds. Furthermore, the pipeline also calculates confidence intervals that represent the range of values associated with different confidence levels.
 
- As output the *longitudinal_biochemqc* pipeline generates static plots (PDF) and also dynamic plots (HTML).
+As output, the *longitudinal_biochemqc* pipeline generates static plots (PDF) and dynamic plots (HTML).
 
 * ### ```pCRC``` <a name="pCRC"></a>
 
 The R pipeline performs the data analysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences regarding the compounds format on the plate and the number of different concentrations tested for each compound. Beyond that, for now, this pipeline uses only the single plate format.
 
-The input data for this pipeline is obtained with the same equipment of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
+The input data for this pipeline is obtained with the same types of equipment of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
 
 Following the data manipulation, it is applied a predictive model using the compounds concentration and robust inhibition with some initial estimates (max and min asymptote and hill slope). To define these initial estimates it is implemented some logical gates to facilitate the model to fit the data. 
 
 The output of the data analysis is the predicted IC50. Beyond that, the pipeline also produces output plots containing the 3 points curve for each compound illustrating the concentration vs robust inhibition. Furthermore, is also generated a table with the output data and another plot showing the robust inhibition of the compounds according to the compound concentrations.
 
-* ### ```test_biochemqc```
+* ### ```test_biochemqc``` <a name="test_biochemqc"></a>
 
 Beyond the R pipelines described, the repository also contains tests created in Python, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
 

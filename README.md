@@ -3,12 +3,13 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Features](#features)
+* [fast_XC50_analysis.R](##fast_XC50_analysis.R)
 * [Tecnology](#tecnology)
 * [Contact](#contact)
 
 ## Introduction
 
-This repository project contain the Arctoris R pipelines used for the analysis of chemical experiments data. 
+This repository project contain the Arctoris R pipelines used for the analysis of chemical experiments data that aims to measure drug's efficacy. 
 
 ## Features
 

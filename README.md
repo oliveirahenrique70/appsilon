@@ -15,7 +15,7 @@ This repository project contain the Arctoris R pipelines used for the analysis o
 
 ## Features
 
-All project R pipelines are in the ```src``` folder of the repository, with the following pipelines:
+All project R pipelines are in the ```src``` folder of the repository. The project have the following R pipelines:
 
 *  ### ```fast_XC50_analysis``` <a name="fast_XC50_analysis"></a>
 

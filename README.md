@@ -35,12 +35,15 @@ Following the data manipulation is is applyed a predictve model using the compou
 
 * ### ```pCRC``` <a name="pCRC"></a>
 
- The pipeline perform the data anlysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences reagarding the compounds format on the plate and the number of different concentrations tested for each compound. 
+The pipeline perform the data anlysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences reagarding the compounds format on the plate and the number of different concentrations tested for each compound. 
 
- The input data for this pipeline is obtained with the same equipments of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
+The input data for this pipeline is obtained with the same equipments of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
+
+Beyond the R pipelines described, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are the following
+
+* ### ```test_biochemqc```
 
 
-Beyond the R pipelines, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are on the code called ```test_biochemqc.py```
 
 ## Tecnology
 

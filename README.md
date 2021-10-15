@@ -3,9 +3,9 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Features](#features)
-  * [fast_XC50_analysis.R](#fast_XC50_analysis.R)
-  * [longitudinal_biochemqc.R](#longitudinal_biochemqc.R)
-  * [pCRC.R](#pCRC.R)
+  * [fast_XC50_analysis](#fast_XC50_analysis)
+  * [longitudinal_biochemqc](#longitudinal_biochemqc)
+  * [pCRC](#pCRC)
 * [Tecnology](#tecnology)
 * [Contact](#contact)
 
@@ -17,7 +17,7 @@ This repository project contain the Arctoris R pipelines used for the analysis o
 
 All project R pipelines are in the ```src``` folder of the repository, with the following pipelines:
 
-*  ### ```fast_XC50_analysis.R``` <a name="fast_XC50_analysis.R"></a>
+*  ### fast_XC50_analysis <a name="fast_XC50_analysis.R"></a>
 
 The pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, the main objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50) which is the most widely used and informative measure of a drug's efficacy. The IC50 is obtain by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
 
@@ -25,7 +25,7 @@ It´s important to highligth that these experiments can be developed using two t
 
 Following the data manipulation is is applyed a predictve model using the compounds concentration and robust inhibition with some initial estimates (max and min asymptote and hill slope), the output of this predictive model is the predicted IC50. Beyond that, the pipeline also produces as output plots containing the 11 points curve for each compound illustrating the concentration vs robust inhibition. 
 
-* #### ```longitudinal_biochemqc.R``` 
+* #### longitudinal_biochemqc.R
 
 The pipeline is used on to create a logitudinal analysis of **BiochemQC** experiments devoloped during time. As input this pipeline uses the output data from all BiochemQC experiments to create plots that illustrates how the data behaviour over time.
 

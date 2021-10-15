@@ -15,7 +15,7 @@ This repository project contain the Arctoris R pipelines used for the analysis o
 
 All project R pipelines are in the ```src``` folder of the repository, with the following pipelines:
 
-*  ### ```fast_XC50_analysis.R```
+*  ### ```fast_XC50_analysis.R``` <a name="fast_XC50_analysis.R"></a>
 
 The pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, the main objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50) which is the most widely used and informative measure of a drug's efficacy. The IC50 is obtain by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
 

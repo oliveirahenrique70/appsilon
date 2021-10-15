@@ -4,6 +4,8 @@
 * [Introduction](#introduction)
 * [Features](#features)
   * [fast_XC50_analysis.R](#fast_XC50_analysis.R)
+  * [longitudinal_biochemqc.R](#longitudinal_biochemqc.R)
+  * [pCRC.R](#pCRC.R)
 * [Tecnology](#tecnology)
 * [Contact](#contact)
 

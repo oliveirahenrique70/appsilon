@@ -1,6 +1,4 @@
-![Arctoris image](Arctoris-blue-logo-1.png)
-
-<img src="Arctoris-blue-logo-1.png" width="48">
+<img src="Arctoris-blue-logo-1.png" align="center" height="48" width="48">
 
 -----------------------------------------------------------------------------
 

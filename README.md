@@ -16,7 +16,7 @@ This repository project contains the Arctoris R pipelines used for the analysis 
 
 ## Features
 
-All project R pipelines are in the ```src``` folder of the repository. The project has the following ```R``` pipelines:
+All project ```R``` pipelines are in the ```src``` folder of the repository. The project has the following pipelines:
 
 *  ### fast_XC50_analysis <a name="fast_XC50_analysis"></a>
 
@@ -44,7 +44,7 @@ Following the data manipulation, it is applied a predictive model using the comp
 
 The output of the data analysis is the predicted IC50. Beyond that, the pipeline also produces output plots containing the 3 points curve for each compound illustrating the concentration vs robust inhibition. Furthermore, is also generated a table with the output data and another plot showing the robust inhibition of the compounds according to the compound concentrations.
 
-* ### ```test_biochemqc``` <a name="test_biochemqc"></a>
+* ### test_biochemqc <a name="test_biochemqc"></a>
 
 Beyond the pipelines described, the repository also contains tests created in ```Python```, intending to make sure the ```R``` pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the ```R``` pipelines.
 

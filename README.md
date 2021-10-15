@@ -3,7 +3,7 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Features](#features)
-  * [fast_XC50_analysis.R](#```fast_XC50_analysis.R```)
+  * [fast_XC50_analysis.R](##fast_XC50_analysis.R)
 * [Tecnology](#tecnology)
 * [Contact](#contact)
 

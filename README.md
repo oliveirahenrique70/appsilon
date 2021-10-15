@@ -26,7 +26,7 @@ It´s important to highlight that these experiments can be reproduced using two 
 
 Following the data manipulation, it is applied a predictive model using as input the compound concentrations and robust inhibition with some initial estimates (max and min asymptote and hill slope), the output of this predictive model is the predicted IC50 value of each compound. Beyond that, the pipeline also produces output plots containing the 11 points curve for each compound illustrating the concentration vs robust inhibition. 
 
-* ### ```longitudinal_biochemqc``` <a name="longitudinal_biochemqc"></a>
+* ### longitudinal_biochemqc <a name="longitudinal_biochemqc"></a>
 
 The ```R``` pipeline is used to create a longitudinal analysis of **BiochemQC** experiments developed over time. As input, this pipeline uses the output data from all BiochemQC experiments to develop plots that illustrate how all experiments data behaviour over time.
 
@@ -34,7 +34,7 @@ This pipeline data analysis involves the compounds used in the BiochemQc experim
 
 As output, the *longitudinal_biochemqc* pipeline generates static plots (PDF) and dynamic plots (HTML).
 
-* ### ```pCRC``` <a name="pCRC"></a>
+* ### pCRC <a name="pCRC"></a>
 
 The ```R``` pipeline performs the data analysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences regarding the compounds format on the plate and the number of different concentrations tested for each compound. Beyond that, for now, this pipeline uses only the single plate format.
 
@@ -46,7 +46,7 @@ The output of the data analysis is the predicted IC50. Beyond that, the pipeline
 
 * ### ```test_biochemqc``` <a name="test_biochemqc"></a>
 
-Beyond the ```R``` pipelines described, the repository also contains tests created in ```Python```, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
+Beyond the pipelines described, the repository also contains tests created in ```Python```, intending to make sure the ```R``` pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the ```R``` pipelines.
 
 ## Tecnology
 

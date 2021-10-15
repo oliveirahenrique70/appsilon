@@ -12,15 +12,15 @@
 
 ## Introduction
 
-This repository project contain the Arctoris R pipelines used for the analysis of chemical experiments data that aims to measure drug's efficacy. 
+This repository project contains the Arctoris R pipelines used for the analysis of chemical experiments data that aims to measure drug efficacy.
 
 ## Features
 
-All project R pipelines are in the ```src``` folder of the repository. The project have the following R pipelines:
+All project R pipelines are in the ```src``` folder of the repository. The project has the following ```R``` pipelines:
 
 *  ### ```fast_XC50_analysis``` <a name="fast_XC50_analysis"></a>
 
-The R pipeline performs the data analysis for the **BiochemQC** and **MPro** experiments. The objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50), which is the most widely used and informative measure of drug efficacy. The IC50 is obtained by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
+The ```R``` pipeline performs the data analysis for the **BiochemQC** and **MPro** experiments. The objective of the experiment is to obtain the half-maximal inhibitory concentration (IC50), which is the most widely used and informative measure of drug efficacy. The IC50 is obtained by constructing a dose-response curve and examining the robust inhibition of different concentrations and compounds. 
 
 It´s important to highlight that these experiments can be reproduced using two types of plate format, single or multiplate. It is used as input the data obtained by two different types of equipment, the BMG and D300. After being imported, the data is organized according to compounds and controls. The controls are used to fit the robust inhibition and normalize its values. 
 
@@ -46,7 +46,7 @@ The output of the data analysis is the predicted IC50. Beyond that, the pipeline
 
 * ### ```test_biochemqc``` <a name="test_biochemqc"></a>
 
-Beyond the R pipelines described, the repository also contains tests created in Python, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
+Beyond the R pipelines described, the repository also contains tests created in ```Python```, intending to make sure the R pipelines are been correctly build. This test has the objective of checking the overall format of the input and output data, also the functionality present on the R pipeline.
 
 ## Tecnology
 

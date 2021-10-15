@@ -1,5 +1,7 @@
 ![Arctoris image](Arctoris-blue-logo-1.png)
 
+<img src="Arctoris-blue-logo-1.png" width="20">
+
 -----------------------------------------------------------------------------
 
 

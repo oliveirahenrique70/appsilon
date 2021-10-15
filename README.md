@@ -1,5 +1,6 @@
-<img src="Arctoris-blue-logo-1.png" align="center" height="100" width="100">
-
+<p align="center">
+  <img src="Arctoris-blue-logo-1.png" align="center" height="200" width="300">
+</p>
 -----------------------------------------------------------------------------
 
 

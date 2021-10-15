@@ -16,13 +16,19 @@ All R pipelines are in the ```src``` folder of the repository, the repository pi
 
 *  ### ```fast_XC50_analysis.R```
 
-The pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, it´s important to highligth that these experiments can be developed as a single plate or multiplate. 
+The pipeline perform the data anlysis for the **BiochemQC** and **MPro** experiments, it´s important to highligth that these experiments can be developed usiong two types of format single plate or multiplate. 
 
-The code uses as input data an Excel and XML files obtained using two different equipments BMG and D300.   
+The code uses as input data an Excel and XML files obtained using two different equipments, the BMG and D300 were used tp get the respective input data. After imported the input data is organized according to compounds and controls.      
+
+Following the data manipulation is is applyed a predictve model on the data to obtain the predicted ic50
 
 * #### ```longitudinal_biochemqc.R``` 
 
-The pipeline is used on to create a logitudinal analysis of BiochemQC experiments devoloped during time. 
+The pipeline is used on to create a logitudinal analysis of BiochemQC experiments devoloped during time. As input this pipeline uses the output data from all BiochemQC experiments to create plots that illustrates how the experiment behaviour over time.
+
+The data analoysis envolves the three compounds used in the BiochemQc experiment
+
+As output of this pipeline it is generated 4 static plots (PDF) and 4 dynamic plots (HTML)
 
 * ```pCRC.R``` : 
 
@@ -38,10 +44,13 @@ The following tools were used to develop the project:
 
 ## Contact
 
-To get more information bout the project described acess our website,
-[Arctoris](https://www.arctoris.com/)
+For more information contact us trougth
+* Website - [arctoris.com](https://www.arctoris.com/)
+* Email - welcome@arctoris.com
+* Phone -
 
 
+-----------------------------------------------------------------------------
 
 
 

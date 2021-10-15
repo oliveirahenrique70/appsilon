@@ -25,19 +25,22 @@ It´s important to highligth that these experiments can be developed using two t
 
 Following the data manipulation is is applyed a predictve model using the compounds concentration and robust inhibition with some initial estimates (max and min asymptote and hill slope), the output of this predictive model is the predicted IC50. Beyond that, the pipeline also produces as output plots containing the 11 points curve for each compound illustrating the concentration vs robust inhibition. 
 
-* #### ```longitudinal_biochemqc``` <a name="longitudinal_biochemqc"></a>
+* ### ```longitudinal_biochemqc``` <a name="longitudinal_biochemqc"></a>
 
-The pipeline is used on to create a logitudinal analysis of **BiochemQC** experiments devoloped during time. As input this pipeline uses the output data from all BiochemQC experiments to create plots that illustrates how the data behaviour over time.
+ The pipeline is used on to create a logitudinal analysis of **BiochemQC** experiments devoloped during time. As input this pipeline uses the output data from all BiochemQC  experiments to create plots that illustrates how the data behaviour over time.
 
-The pipeline data analysis envolves the compounds used in the BiochemQc experiment, therefore this pipeline produces as output plots for each compounds and also plots with an overall analysis of all compounds. Furthermore, the pipeline also calcuates confidence intervall that represents range of values associated with different confidence levels.
+ The pipeline data analysis envolves the compounds used in the BiochemQc experiment, therefore this pipeline produces as output plots for each compounds and also plots with an    overall analysis of all compounds. Furthermore, the pipeline also calcuates confidence intervall that represents range of values associated with different confidence levels.
 
-As output the pipeline generates static plots (PDF) and also dynamic plots (HTML).
+ As output the *longitudinal_biochemqc* pipeline generates static plots (PDF) and also dynamic plots (HTML).
 
-* ```pCRC``` <a name="pCRC"></a>
+* ### ```pCRC``` <a name="pCRC"></a>
+
+ The pipeline perform the data anlysis for the **pCRC** experiments. This pipeline is similar to the *fast_XC50_analysis* but with some differences reagarding the compounds format on the plate and the number of different concentrations tested for each compound. 
+
+ The input data for this pipeline is obtained with the same equipments of *fast_XC50_analysis*, the BMG and D300. After imported the data is organized according to compounds and controls.
 
 
-
-Beyond that, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are on the code called ```test_biochemqc.py```
+Beyond the R pipelines, the repository also contains tests, created in Python, with the objectove of making sure the R pipelines are been correctly build. These test are on the code called ```test_biochemqc.py```
 
 ## Tecnology
 

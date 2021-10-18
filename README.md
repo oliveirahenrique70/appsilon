@@ -27,6 +27,9 @@ The repository has data from the following experiments:
 
 -----------------------------------------------------------------------------
 
+<div align="center">
+  <img src="arctoris-slogan.jpg" align="center" height="200" width="1200">
+</div>
 
 
 ### GitLab Orange Heading

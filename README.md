@@ -28,7 +28,7 @@ The repository has data from the following experiments:
 -----------------------------------------------------------------------------
 
 <div align="center">
-  <img src="arctoris-slogan.jpg" align="center" height="75" width="1000">
+  <img src="arctoris-slogan.jpg" align="center" height="100" width="1200">
 </div>
 
 

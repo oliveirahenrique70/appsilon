@@ -25,12 +25,11 @@ The repository has data from the following experiments:
 * CTG
 
 
------------------------------------------------------------------------------
-
+---
 <div align="center">
   <img src="arctoris-slogan.jpg" align="center" height="70" width="1200">
 </div>
-
+---
 
 ### GitLab Orange Heading
 {: .gitlab-orange}
